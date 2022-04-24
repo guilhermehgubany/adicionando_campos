@@ -30,6 +30,8 @@ CREATE TABLE medida (
 	fk_aquario INT
 );
 
+alter table usuario add column cpf varchar(50);
+alter table usuario add column telefone varchar(15);
 
 
 
@@ -56,5 +58,4 @@ CREATE TABLE medida (
 	momento DATETIME,
 	fk_aquario INT
 );
-
 
